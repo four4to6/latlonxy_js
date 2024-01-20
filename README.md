@@ -24,11 +24,14 @@ https://zenn.dev/tonbiwing/articles/0a8c2a130058e0
 
 ## Example
 
+### CDN
 ```html:jsDelivr
 https://cdn.jsdelivr.net/gh/four4to6/latlonxy_js@latest/data/latlonxy.js
 ```
 
+### JSFiddle
 https://jsfiddle.net/y9kwvgmj/
+
 
 ## 著作・出典 等
 
