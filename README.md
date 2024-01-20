@@ -4,8 +4,9 @@
 
 「JavaScriptによる緯度経度と地図のXY(平面直角座標)との変換、および地理学入門」という記事で紹介しているJavaScript。
 
-使用についての詳細は以下のURL(記事)をご覧ください。
+使用についての詳細は以下のURL(記事)を**必ずお読みください**。
 
+「JavaScriptによる緯度経度と地図のXY(平面直角座標)との変換、および地理学入門」
 https://zenn.dev/tonbiwing/articles/0a8c2a130058e0
 
 ## 注意事項
@@ -34,6 +35,11 @@ https://zenn.dev/tonbiwing/articles/0a8c2a130058e0
 | xy2latlon |平面直角座標XYから緯度経度に変換する |
 | xyzone |任意の原点の緯度経度を指定して、その平面直角座標の座標系情報を取得 |
 | xyzonejapan |日本の平面直角座標系1～19の座標系情報を取得する |
+
+関数の使用順序は以下の通りです。
+
+1. zyzoneまたは xyzonejapan関数を最初に実行し、座標系情報を取得。
+2. latlon2xy または xy2latlonを実行。
 
 
 ## Example
