@@ -16,11 +16,19 @@ https://zenn.dev/tonbiwing/articles/0a8c2a130058e0
 
 ## latlonxy.jsの概要
 
-以下、「JavaScriptによる緯度経度と地図のXY(平面直角座標)との変換、および地理学入門」より引用。
+以下、「JavaScriptによる緯度経度と地図のXY(平面直角座標)との変換、および地理学入門」より**引用**。
 
 - 地図表示用のWebフレームワーク(Leaflet等)のJavaScriptから呼出し可能な関数にして、座標変換計算の計算量の多い部分を事前計算して定数値にすることで軽量化しています。
 - 緯度経度から地図上の平面直角座標(XY)に変換し、真北方位角、縮尺係数を算出します。
 - 平面直角座標(XY)から緯度経度に変換します。
+
+## Example
+
+```html:jsDelivr
+https://cdn.jsdelivr.net/gh/four4to6/latlonxy_js@latest/data/latlonxy.js
+```
+
+https://jsfiddle.net/y9kwvgmj/
 
 ## 著作・出典 等
 
